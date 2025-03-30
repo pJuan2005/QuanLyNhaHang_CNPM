@@ -16,5 +16,11 @@ namespace QuanLyNhaHang
         {
             InitializeComponent();
         }
+
+        private void btnPictureAdd_Click(object sender, EventArgs e)
+        {
+            frmNhanVienAdd frmNV = new frmNhanVienAdd();
+            frmNV.ShowDialog();
+        }
     }
 }

@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyNhaHang
 {
-    public partial class frmQuanLyMonAn : Form
+    public partial class frmNhanVienAdd : Form
     {
-        public frmQuanLyMonAn()
+        public frmNhanVienAdd()
         {
             InitializeComponent();
         }
 
-        
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
