@@ -52,24 +52,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmKhachHang.cs">
+
+    <Compile Include="cslDataHelper.cs" />
+    <Compile Include="frmBaoCao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKhachHang.Designer.cs">
-      <DependentUpon>frmKhachHang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmBanAn.cs">
+    <Compile Include="frmBaoCao.Designer.cs">
+      <DependentUpon>frmBaoCao.cs</DependentUpon>
+
+    
+
+    <Compile Include="frmQLKhoNL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBanAn.Designer.cs">
-      <DependentUpon>frmBanAn.cs</DependentUpon>
+    <Compile Include="frmQLKhoNL.Designer.cs">
+      <DependentUpon>frmQLKhoNL.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="frmQLKM.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="frmQLKM.Designer.cs">
+      <DependentUpon>frmQLKM.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBaoCao.resx">
+      <DependentUpon>frmBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLKhoNL.resx">
+      <DependentUpon>frmQLKhoNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLKM.resx">
+      <DependentUpon>frmQLKM.cs</DependentUpon>
+
     <Compile Include="frmMonAnAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +158,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMonAn.resx">
       <DependentUpon>frmMonAn.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
