@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLyNhaHang
 {
-    public partial class frmLogin : Form
+    public partial class frmKhachHang : Form
     {
-        
+        public frmKhachHang()
+        {
+            InitializeComponent();
+        }
     }
 }
